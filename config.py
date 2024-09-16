@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "23027390"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "70ee33515a12971d9c6a20d59d477c92")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5812648906:AAH3dlK3nL36sxpN7_8xcpmwlk-Dg1IJpkg")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -25,7 +25,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1001864483206))
 
 OWNER_ID = int(getenv("OWNER_ID", "6987821999"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "Queen_of_heart_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Tohidmevati6332_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
